@@ -181,3 +181,15 @@ kubectl logs -f <pod-name> -n banking
 kubectl logs -p <pod-name> -n banking
 ```
 
+### Kubernetes Features Demonstrated:
+
+- Self-Healing: If a pod crashes, Kubernetes automatically replaces it.
+- Automatic Rollout: New versions of microservices are deployed gradually.
+- Rollback: Roll back to a stable version if deployment fails.
+- Service Types Tested: ClusterIP (internal access), NodePort (node-level access), LoadBalancer (external access).
+
+### References
+
+- SpringBoot Banking Services Project
+- Helm Config Repo (Next Step)
+- Kubernetes Documentation
